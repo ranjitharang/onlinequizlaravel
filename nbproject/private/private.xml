@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/D:/xamp/htdocs/laravel/resources/views/shares/layout.blade.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/app/Http/Controllers/StudentController.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/app/Share.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/resources/views/index.blade.php.html</file>
+            <file>file:/D:/xamp/htdocs/laravel/routes/web.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/database/migrations/2019_01_28_034035_student.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/resources/views/index.blade.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/database/migrations/2014_10_12_000000_create_users_table.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/database/seeds/UsersTablesSeeder.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/database/migrations/2019_01_28_034713_student.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/database/migrations/2019_01_29_134317_create_shares_table.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/.env</file>
+            <file>file:/D:/xamp/htdocs/laravel/resources/views/shares/edit.blade.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/resources/views/shares/index.blade.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/app/Http/Controllers/ShareController.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/resources/views/layouts/master.blade.php</file>
+            <file>file:/D:/xamp/htdocs/laravel/resources/views/shares/create.blade.php</file>
+        </group>
+    </open-files>
+</project-private>
