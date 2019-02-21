@@ -24,6 +24,10 @@
           <input type="text" class="form-control" name="subject" value={{ $teacher->subject }} />
         </div>
         <div class="form-group">
+          <label for="image">Image:</label>
+          <input type="image" class="form-control" name="image" value={{ $student->image }} />
+        </div>
+        <div class="form-group">
          <label for="Marks">Questions:</label>
           <input type="text" class="form-control" name="questions" value={{ $teacher->questions }} />
         </div>

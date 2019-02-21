@@ -66,9 +66,10 @@
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header" style="color: #62636d">ADD QUESTIONS</h6>
+            <h6 class="collapse-header" style="color: #62636d"><a href="{{url('/questions')}}">ADD QUESTIONS</h6>
             <h6 class="collapse-header" style="color: #62636d">LIST QUESTIONS</h6>
             <h6 class="collapse-header" style="color: #62636d">SUBJECTS</h6>
+            <h6 class="collapse-header" style="color: #62636d"><a href="{{url('/categories')}}">CATEGORIES</a></h6>
             <h6 class="collapse-header" style="color: #62636d">LOCATIONS</h6>
           </div>
         </div>
@@ -111,7 +112,7 @@
             <h6 class="collapse-header">Login Screens:</h6>
             <a class="collapse-item" href="{{url('/quizlogin')}}">Login</a>
             <a class="collapse-item" href="{{url('/quizregister')}}">Register</a>
-            <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+            <a class="collapse-item" href="{{url('/fpassword')}}">Forgot Password</a>
             <div class="collapse-divider"></div>
             <h6 class="collapse-header">Other Pages:</h6>
             <a class="collapse-item" href="404.html">404 Page</a>

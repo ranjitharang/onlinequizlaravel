@@ -170,8 +170,13 @@ Route::get('image-upload', 'ImageUploadController@imageUpload')->name('image.upl
 
 Route::post('image-upload', 'ImageUploadController@imageUploadPost')->name('image.upload.post');
 
+//Quiz Project
+
 Route::get('/admin', function(){
   return view('admin_template');
+});
+Route::get('/questions', function(){
+  return view('questions');
 });
 Route::get('/answers', function(){
   return view('answers');
@@ -182,7 +187,12 @@ Route::get('/quizlogin', function(){
 Route::get('/quizregister', function(){
   return view('quizregister');
 });
-
+Route::get('/fpassword', function(){
+  return view('fpassword');
+});
+Route::get('/categories', function(){
+  return view('categories');
+});
 
 //Project Routes
 //Route::get('my-home', 'HomeController@myHome');

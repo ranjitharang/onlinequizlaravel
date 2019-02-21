@@ -18,6 +18,7 @@
           <td>ID</td>
           <td>Student Name</td>
           <td>Subject</td>
+          <td>Upload Image</td>
           <td>Answers</td>
           <td colspan="2">Action</td>
         </tr>
@@ -29,6 +30,14 @@
             <td>{{$students->id}}</td>
             <td>{{$students->name}}</td>
            <td>{{$students->subject}}</td>
+           <input type="hidden" name="subject" value="0">
+           {!! Form::checkbox('subject',1,false) !!}
+           <td>{{$students->image}}</td>
+           <form action="/uploadfiletest" method="post" enctype="multipart/form-data">
+        <input type="hidden"  name="_token" value="<?php echo csrf_token(); ?>" >
+  <input type="file" name="image">
+  <input type="submit" name="submit" value="submit">
+   </form>
             <td>{{$students->answers}}</td>
             <td><a class="btn btn-info" href="{{ route('student.show',$students->id) }}">Show</a></td>
             <td><a class="btn btn-danger" href="{{ route('student.create',$students->id) }}">Create</a></td>

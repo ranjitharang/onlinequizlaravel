@@ -30,6 +30,10 @@
           <div class="form-group">
               <label for="subject">Subject:</label>
               <input type="text" class="form-control" name="subject"/>
+          <div class="form-group">
+              <label for="image">Upload Image</label>
+              <input type="image" class="form-control" name="image"/>
+            </div>    
           </div>
           <div class="form-group">
               <label for="questions">Questions:</label>
