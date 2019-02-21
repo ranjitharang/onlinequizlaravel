@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\DB;
-use Faker\Factory as Faker;
+//use Illuminate\Database\Eloquent\Model;
+//use Illuminate\Support\Facades\DB;
+//use Faker\Factory as Faker;
 
 class DatabaseSeeder extends Seeder
 {
@@ -12,8 +12,8 @@ class DatabaseSeeder extends Seeder
      *
      * @return void
      */
-    public function run()
-    {
+    //public function run()
+    /*{
         $faker = Faker::create();
         foreach (range(1,10) as $index) {
             DB::table('users')->insert([
@@ -21,7 +21,12 @@ class DatabaseSeeder extends Seeder
                 'email' => $faker->email,
                'password' => bcrypt('secret'),
             ]);
-    }
+    }*/
+
+    public function run()
+    {
+        $this->call(TransactionsTableSeeder::class);
+    
         // $this->call(UsersTableSeeder::class);
         //Eloquent::unguard();
         //$this->call(UsersTablesSeeder::class);

@@ -29,6 +29,9 @@ Route::get('blade', function () {
 //	return view('child', ['i' => 1]);
 //});
 
+Route::get('employee', 'EmployeeController@create')->name('employee.create');
+Route::post('employee', 'EmployeeController@store')->name('employee.store');
+
 Route::get('/form',function() {
    return view('form');
 });
