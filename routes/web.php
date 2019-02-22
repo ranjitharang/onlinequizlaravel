@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('stripe', 'StripePaymentController@stripe');
+Route::post('stripe', 'StripePaymentController@stripePost')->name('stripe.post');
 
 
 Route::get('blade', function () {
@@ -200,3 +201,11 @@ Route::get('/categories', function(){
 //Project Routes
 //Route::get('my-home', 'HomeController@myHome');
 //Route::get('my-users', 'HomeController@myUsers');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
